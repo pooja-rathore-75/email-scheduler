@@ -1,5 +1,5 @@
 class EmailSchedulerMailer < ApplicationMailer
-  default from: 'vlovanshi@bestpeers.com'
+  # default from: 'vlovanshi@bestpeers.com'
 
   def sample_email(recipient_email, message)
     @message = message
