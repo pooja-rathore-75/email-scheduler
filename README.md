@@ -9,6 +9,7 @@ Start the Rails server by running: rails server
 Create the user via postman
 Below I attach the collect for it.
 
+[email scheduler.postman_collection.zip](https://github.com/ankita-chourasiya/email-scheduler/files/11938550/email.scheduler.postman_collection.zip)
 
 
 
