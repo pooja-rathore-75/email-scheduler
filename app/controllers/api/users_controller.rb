@@ -11,7 +11,9 @@ class Api::UsersController < ApplicationController
   end
 
   def show
-    user = User.find(params[:id])
+    return unless params[:id].nil?
+      
+    user = User.find(params[:id]) 
     render json: { user: user }
   end
 

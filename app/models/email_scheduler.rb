@@ -24,6 +24,8 @@ module EmailScheduler
 
       random_message = remaining_messages.sample
       user.update(received_messages: "#{user.received_messages},#{random_message}")
+
+      EmailSchedulerMailer.sample_email(user.email, random_message).deliver_now
     end
   end
 end
