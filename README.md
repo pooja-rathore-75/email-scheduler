@@ -22,3 +22,8 @@ Also need to configure you gmail credentials for smtp in development.rb file
 
 Run the scheduler run the below command:
 `bundle exec clockwork clock.rb`
+
+
+Requirement:
+
+[Engineering_Role_Exercise.pdf](https://github.com/ankita-chourasiya/email-scheduler/files/11948769/Engineering_Role_Exercise.pdf)
