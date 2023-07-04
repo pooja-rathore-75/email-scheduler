@@ -31,6 +31,8 @@ gem 'sidekiq'
 
 gem 'clockwork'
 
+gem 'rspec-rails'
+
 # gem 'letter_opener', group: :development
 
 # Use Redis adapter to run Action Cable in production
@@ -76,4 +78,6 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+  gem 'shoulda-matchers', require: false
+  gem 'validates_email_format_of'
 end
